@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+/* Estilizando os labels */
+/* Para deixar a fonte dos labels com a cor azul e negrito */
+.label-blue {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Para definir cores diferentes para os títulos <h1> */
+h1 {
+    color: orange; /* Cor diferente de preto para títulos <h1> */
+    text-align: center; /* Centraliza horizontalmente */
+    margin-top: 50px; /* Ajuste a margem superior para centralizar verticalmente */
+}
+
+/* Estilize a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 16px; /* Adicione espaço interno de 8 pixels */
+    text-align: left;
+}
+
+/* Estilize os cabeçalhos da tabela (opcional) */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilize as linhas pares (opcional) */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilize os links */
+a {
+    margin-top: 250px; /* Adicione espaço acima do link */
+    display: block; /* Faça o link ocupar toda a largura disponível */
+}
+
+/* Adicione estilos aos rótulos */
+.field-label {
+    font-weight: bold; /* Deixa o nome do campo em negrito (opcional) */
+    margin-right: 10px; /* Adicione margem à direita do nome do campo para separá-lo do valor */
+    width: auto; /* Largura automática para os rótulos (remove a largura fixa) */
+    display: inline-block;
+    text-align: left; /* Alinha o texto do rótulo à esquerda */
+}
+result-text {
+    color: red;
+    font-weight: bold;
