@@ -17,8 +17,7 @@ public class JogoServlet extends HttpServlet {
         int numero3 = Integer.parseInt(request.getParameter("numero3"));
         int numero4 = Integer.parseInt(request.getParameter("numero4"));
         int numero5 = Integer.parseInt(request.getParameter("numero5"));
-
-        // Verificar quais números são pares e quais são ímpares
+ 
         String pares = "";
         String impares = "";
 
